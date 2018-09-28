@@ -1,7 +1,7 @@
 # dititalClock
 
-What do you call a story that one clock tells to another? 
+What happens when you annoy a clock?
 
-Second hand information.
+It gets ticked off!
 
 https://kah919.github.io/dititalClock/.
