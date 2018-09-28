@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* adds the padding and the border to the width itself */
+}
+
+body {
+    background: url(pattern.jpg);
+}
+
+.main {
+    border-radius: 4px;
+    background: #ebebeb;
+    width: 400px;
+    height: 175px;
+    margin: 200px auto; /* centers the box */
+    position: relative;
+    padding: 30px;
+}
+
+.badge {
+    background: #e66357;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    width: 100px;
+    position: absolute; /* puts on top left corner of main div which is the parent thanks to relative position*/
+    top: -15px;
+    left: 37%;
+}
+
+.clock {
+    border-radius: 4px;
+    background: white;
+    text-align: center;
+    font-size: 55px;
+    height: 100%;
+    padding-top: 20px;
+    font-family: Orbitron;
+}
